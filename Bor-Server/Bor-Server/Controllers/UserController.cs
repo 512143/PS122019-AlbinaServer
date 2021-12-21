@@ -8,6 +8,7 @@ using Microsoft.AspNetCore.Mvc;
 using Bor.Core.Models;
 using Albina.BusinesLogic.Core.Interfaces;
 using AutoMapper;
+using Albina.BusinesLogic.Core.Models;
 
 namespace Bor_Server.Controllers
 {
@@ -27,7 +28,25 @@ namespace Bor_Server.Controllers
         [HttpPost("/auth")]
         public async Task<ActionResult<UserInformationDto>> Auth([FromBody] UserIdentityDto userIdentityDto)
         {
-            _userService.Auth();
+            UserIdentityBlo userIdentityBlo = _mapper.Map<UserIdentityBlo>(userIdentityDto);
+            UserInformationBlo userInformationBlo = await _userService.Auth(userIdentityBlo);
+            UserInformationDto userInformationDto = _mapper.Map<UserInformationDto>(userInformationBlo);
+            return userInformationDto;
+        }
+
+        [HttpPost("/register")]
+        public async Task<ActionResult<UserInformationDto>> Register([FromBody] UserIdentityDto userIdentityDto)
+        {
+            UserIdentityBlo userIdentityBlo = _mapper.Map<UserIdentityBlo>(userIdentityDto);
+            UserInformationBlo userInformationBlo = await _userService.Register(userIdentityBlo);
+            UserInformationDto userInformationDto = _mapper.Map<UserInformationDto>(userInformationBlo);
+            return userInformationDto;
+        }
+
+        [HttpPost("/update")]
+        public async Task<ActionResult<UserInformationDto>> Register([FromBody] UserIdentityDto userIdentityDto)
+        {
+            
         }
     }
 }

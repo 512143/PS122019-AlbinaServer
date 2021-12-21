@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\titov\\Documents\\GitHub\\PS122019-AlbinaServer\\Bor-Server\\Bor-Server\\Bor-Server.csproj": {}
+    "C:\\Users\\StudentDev\\Documents\\GitHub\\note-512143\\PS122019-AlbinaServer\\Bor-Server\\Bor-Server\\Bor-Server.csproj": {}
   },
   "projects": {
-    "C:\\Users\\titov\\Documents\\GitHub\\PS122019-AlbinaServer\\Bor-Server\\Albina.DataAccess.Core\\Bor.DataAccess.Core.csproj": {
+    "C:\\Users\\StudentDev\\Documents\\GitHub\\note-512143\\PS122019-AlbinaServer\\Bor-Server\\Albina.DataAccess.Core\\Bor.DataAccess.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\titov\\Documents\\GitHub\\PS122019-AlbinaServer\\Bor-Server\\Albina.DataAccess.Core\\Bor.DataAccess.Core.csproj",
+        "projectUniqueName": "C:\\Users\\StudentDev\\Documents\\GitHub\\note-512143\\PS122019-AlbinaServer\\Bor-Server\\Albina.DataAccess.Core\\Bor.DataAccess.Core.csproj",
         "projectName": "Bor.DataAccess.Core",
-        "projectPath": "C:\\Users\\titov\\Documents\\GitHub\\PS122019-AlbinaServer\\Bor-Server\\Albina.DataAccess.Core\\Bor.DataAccess.Core.csproj",
-        "packagesPath": "C:\\Users\\titov\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\titov\\Documents\\GitHub\\PS122019-AlbinaServer\\Bor-Server\\Albina.DataAccess.Core\\obj\\",
+        "projectPath": "C:\\Users\\StudentDev\\Documents\\GitHub\\note-512143\\PS122019-AlbinaServer\\Bor-Server\\Albina.DataAccess.Core\\Bor.DataAccess.Core.csproj",
+        "packagesPath": "C:\\Users\\StudentDev\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\StudentDev\\Documents\\GitHub\\note-512143\\PS122019-AlbinaServer\\Bor-Server\\Albina.DataAccess.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\titov\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\StudentDev\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -66,20 +66,20 @@
         }
       }
     },
-    "C:\\Users\\titov\\Documents\\GitHub\\PS122019-AlbinaServer\\Bor-Server\\Bor-Server\\Bor-Server.csproj": {
+    "C:\\Users\\StudentDev\\Documents\\GitHub\\note-512143\\PS122019-AlbinaServer\\Bor-Server\\Bor-Server\\Bor-Server.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\titov\\Documents\\GitHub\\PS122019-AlbinaServer\\Bor-Server\\Bor-Server\\Bor-Server.csproj",
+        "projectUniqueName": "C:\\Users\\StudentDev\\Documents\\GitHub\\note-512143\\PS122019-AlbinaServer\\Bor-Server\\Bor-Server\\Bor-Server.csproj",
         "projectName": "Bor-Server",
-        "projectPath": "C:\\Users\\titov\\Documents\\GitHub\\PS122019-AlbinaServer\\Bor-Server\\Bor-Server\\Bor-Server.csproj",
-        "packagesPath": "C:\\Users\\titov\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\titov\\Documents\\GitHub\\PS122019-AlbinaServer\\Bor-Server\\Bor-Server\\obj\\",
+        "projectPath": "C:\\Users\\StudentDev\\Documents\\GitHub\\note-512143\\PS122019-AlbinaServer\\Bor-Server\\Bor-Server\\Bor-Server.csproj",
+        "packagesPath": "C:\\Users\\StudentDev\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\StudentDev\\Documents\\GitHub\\note-512143\\PS122019-AlbinaServer\\Bor-Server\\Bor-Server\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\titov\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\StudentDev\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -93,14 +93,14 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\titov\\Documents\\GitHub\\PS122019-AlbinaServer\\Bor-Server\\Albina.DataAccess.Core\\Bor.DataAccess.Core.csproj": {
-                "projectPath": "C:\\Users\\titov\\Documents\\GitHub\\PS122019-AlbinaServer\\Bor-Server\\Albina.DataAccess.Core\\Bor.DataAccess.Core.csproj"
+              "C:\\Users\\StudentDev\\Documents\\GitHub\\note-512143\\PS122019-AlbinaServer\\Bor-Server\\Albina.DataAccess.Core\\Bor.DataAccess.Core.csproj": {
+                "projectPath": "C:\\Users\\StudentDev\\Documents\\GitHub\\note-512143\\PS122019-AlbinaServer\\Bor-Server\\Albina.DataAccess.Core\\Bor.DataAccess.Core.csproj"
               },
-              "C:\\Users\\titov\\Documents\\GitHub\\PS122019-AlbinaServer\\Bor-Server\\fgsdfgf\\Bor.Core.csproj": {
-                "projectPath": "C:\\Users\\titov\\Documents\\GitHub\\PS122019-AlbinaServer\\Bor-Server\\fgsdfgf\\Bor.Core.csproj"
+              "C:\\Users\\StudentDev\\Documents\\GitHub\\note-512143\\PS122019-AlbinaServer\\Bor-Server\\fgsdfgf\\Bor.Core.csproj": {
+                "projectPath": "C:\\Users\\StudentDev\\Documents\\GitHub\\note-512143\\PS122019-AlbinaServer\\Bor-Server\\fgsdfgf\\Bor.Core.csproj"
               },
-              "C:\\Users\\titov\\Documents\\GitHub\\PS122019-AlbinaServer\\Bor-Server\\sfgsg\\Albina.BusinesLogic.Core.csproj": {
-                "projectPath": "C:\\Users\\titov\\Documents\\GitHub\\PS122019-AlbinaServer\\Bor-Server\\sfgsg\\Albina.BusinesLogic.Core.csproj"
+              "C:\\Users\\StudentDev\\Documents\\GitHub\\note-512143\\PS122019-AlbinaServer\\Bor-Server\\sfgsg\\Albina.BusinesLogic.Core.csproj": {
+                "projectPath": "C:\\Users\\StudentDev\\Documents\\GitHub\\note-512143\\PS122019-AlbinaServer\\Bor-Server\\sfgsg\\Albina.BusinesLogic.Core.csproj"
               }
             }
           }
@@ -141,20 +141,20 @@
         }
       }
     },
-    "C:\\Users\\titov\\Documents\\GitHub\\PS122019-AlbinaServer\\Bor-Server\\fgsdfgf\\Bor.Core.csproj": {
+    "C:\\Users\\StudentDev\\Documents\\GitHub\\note-512143\\PS122019-AlbinaServer\\Bor-Server\\fgsdfgf\\Bor.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\titov\\Documents\\GitHub\\PS122019-AlbinaServer\\Bor-Server\\fgsdfgf\\Bor.Core.csproj",
+        "projectUniqueName": "C:\\Users\\StudentDev\\Documents\\GitHub\\note-512143\\PS122019-AlbinaServer\\Bor-Server\\fgsdfgf\\Bor.Core.csproj",
         "projectName": "Bor.Core",
-        "projectPath": "C:\\Users\\titov\\Documents\\GitHub\\PS122019-AlbinaServer\\Bor-Server\\fgsdfgf\\Bor.Core.csproj",
-        "packagesPath": "C:\\Users\\titov\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\titov\\Documents\\GitHub\\PS122019-AlbinaServer\\Bor-Server\\fgsdfgf\\obj\\",
+        "projectPath": "C:\\Users\\StudentDev\\Documents\\GitHub\\note-512143\\PS122019-AlbinaServer\\Bor-Server\\fgsdfgf\\Bor.Core.csproj",
+        "packagesPath": "C:\\Users\\StudentDev\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\StudentDev\\Documents\\GitHub\\note-512143\\PS122019-AlbinaServer\\Bor-Server\\fgsdfgf\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\titov\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\StudentDev\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -197,20 +197,20 @@
         }
       }
     },
-    "C:\\Users\\titov\\Documents\\GitHub\\PS122019-AlbinaServer\\Bor-Server\\sfgsg\\Albina.BusinesLogic.Core.csproj": {
+    "C:\\Users\\StudentDev\\Documents\\GitHub\\note-512143\\PS122019-AlbinaServer\\Bor-Server\\sfgsg\\Albina.BusinesLogic.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\titov\\Documents\\GitHub\\PS122019-AlbinaServer\\Bor-Server\\sfgsg\\Albina.BusinesLogic.Core.csproj",
+        "projectUniqueName": "C:\\Users\\StudentDev\\Documents\\GitHub\\note-512143\\PS122019-AlbinaServer\\Bor-Server\\sfgsg\\Albina.BusinesLogic.Core.csproj",
         "projectName": "Albina.BusinesLogic.Core",
-        "projectPath": "C:\\Users\\titov\\Documents\\GitHub\\PS122019-AlbinaServer\\Bor-Server\\sfgsg\\Albina.BusinesLogic.Core.csproj",
-        "packagesPath": "C:\\Users\\titov\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\titov\\Documents\\GitHub\\PS122019-AlbinaServer\\Bor-Server\\sfgsg\\obj\\",
+        "projectPath": "C:\\Users\\StudentDev\\Documents\\GitHub\\note-512143\\PS122019-AlbinaServer\\Bor-Server\\sfgsg\\Albina.BusinesLogic.Core.csproj",
+        "packagesPath": "C:\\Users\\StudentDev\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\StudentDev\\Documents\\GitHub\\note-512143\\PS122019-AlbinaServer\\Bor-Server\\sfgsg\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\titov\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\StudentDev\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],

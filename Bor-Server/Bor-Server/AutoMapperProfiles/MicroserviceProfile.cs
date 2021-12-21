@@ -10,6 +10,9 @@ namespace Bor_Server.AutoMapperProfiles
         {
             CreateMap<UserInformationBlo, UserInformationDto>();
             CreateMap<UserIdentityBlo, UserIdentityDto>();
+            CreateMap<UserIdentityDto, UserIdentityBlo>();
+            CreateMap<UserUpdateDto, UserUpdateBlo>();
+            CreateMap<UserUpdateBlo, UserUpdateDto>();
         }
     }
 }
