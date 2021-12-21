@@ -43,7 +43,8 @@ namespace Albina.BusinesLogic.Services
         public async Task<UserInformationBlo> Get(int userId)
         {
             UserRto user = await _context.Users.FirstOrDefaultAsync(h => h.Id == userId);
-            if (user == null) throw new NotFoundException($"Пользователь с id {userId} не найден");
+            if (user == null)
+                throw new NotFoundException($"Пользователь с id {userId} не найден");
 
             UserInformationBlo userInformationBlo = await ConvertToUserInformation(user);
             return userInformationBlo;
@@ -63,13 +64,25 @@ namespace Albina.BusinesLogic.Services
             await _context.SaveChangesAsync();
 
             return await ConvertToUserInformation(newUser);
-
-
         }
 
-        public Task<UserInformationBlo> Update(UserIdentityBlo userIdentityBlo, UserUpdateBlo userUpdateBlo)
+        public async Task<UserInformationBlo> Update(UserIdentityBlo userIdentityBlo, UserUpdateBlo userUpdateBlo)
         {
-            throw new NotImplementedException();
+            UserRto user = await _context.Users.FirstOrDefaultAsync(h => h.PhoneNumber == userIdentityBlo.Number
+                && h.PhoneNumberPrefix == userIdentityBlo.NumberPrefix);
+
+            if (user == null) 
+                throw new NotFoundException("Такой пользователь не найден");
+
+            user.Name = userUpdateBlo.Name;
+            user.Surname = userUpdateBlo.Surname;
+            user.Password = userUpdateBlo.Password;
+            user.ImageUrl = userUpdateBlo.ImageUrl;
+
+            await _context.SaveChangesAsync();
+
+
+
         }
 
         private async Task<UserInformationBlo> ConvertToUserInformation(UserRto userRto)
