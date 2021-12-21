@@ -35,9 +35,12 @@ namespace Albina.BusinesLogic.Services
 
         }
 
-        public Task<bool> DoesExist(int numberPrefix, int number)
+        public async Task<bool> DoesExist(int numberPrefix, int number)
         {
-            throw new NotImplementedException();
+            bool result = await _context.Users.AnyAsync(x => 
+                x.PhoneNumberPrefix == numberPrefix && x.PhoneNumber == number);
+
+            return result;
         }
 
         public async Task<UserInformationBlo> Get(int userId)
@@ -81,8 +84,7 @@ namespace Albina.BusinesLogic.Services
 
             await _context.SaveChangesAsync();
 
-
-
+            return await ConvertToUserInformation(user);
         }
 
         private async Task<UserInformationBlo> ConvertToUserInformation(UserRto userRto)
